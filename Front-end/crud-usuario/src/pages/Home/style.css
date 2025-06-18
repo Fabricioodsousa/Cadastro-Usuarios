@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #1f1f1f;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 14px;
+  padding: 8px 12px;
+  outline: none;
+}
+
+form button {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  transition: opacity 0.3s ease;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+.usuario-card {
+  background: #1f1f1f;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 12px;
+  width: 400px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+.usuario-card p {
+  margin: 4px 10px 4px 0;
+}
+
+.usuario-card button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.usuario-card button:hover {
+  background: darkred;
+}
